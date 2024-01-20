@@ -22,6 +22,12 @@
                  text-shadow: 3px 3px #000000;  
 
         }
+        
+        video{position: relative;
+  top: 60px; right}
+  
+  img{position: relative;
+  top: 370px; left:170px}
 
         p {
             color: #0000FF;
@@ -76,7 +82,7 @@
       button.css("opacity", 0.5);
     }).catch(function(error) {
       // 如果失败，就显示一个提示信息，让用户点击按钮开始播放
-      alert("请点击按钮开始播放音乐，左边按钮变灰色");
+      alert("请点击按钮开始播放音乐");
     });
     // 给按钮添加一个点击事件的监听器，用来切换音乐的播放和暂停状态
     button.click(function() {
@@ -94,5 +100,8 @@
     });
   });
 </script>
+<video autoplay muted controls width="400px">
+  <source src="https://upos-sz-mirrorali.bilivideo.com/upgcxcode/47/93/1180079347/1180079347-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1705736355&gen=playurlv2&os=alibv&oi=2059321923&trid=c7638a90ffe04fef957af8992f522bfbh&mid=0&platform=html5&upsig=1bfc699fd51d5e9429dde8ff30ed5fb6&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&bvc=vod&nettype=0&f=h_0_0&bw=50984&logo=80000000"> 
+</video>
 </body>
 </html>
